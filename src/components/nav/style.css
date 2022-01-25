@@ -1,0 +1,65 @@
+.nav-row{
+    background: var(--item);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    color: var(--abuputih);
+    text-decoration: none;
+    width: 300px;
+}
+ 
+.nav-title h1{
+    font-size: 30px;
+    margin-left: 10px;
+    transition: 0.7s;
+}
+
+.nav-title i{
+    color: var(--abumuda);
+    font-size: 30px;
+    transition: 0.7s;
+}
+
+.nav-search input{
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border: 0.5px solid var(--abumuda);
+    border-radius: 50px 0 0 50px ;
+}
+
+.nav-search button{
+    height: 30px;
+    width: 30px;
+    border: 0.5px solid var(--abumuda);
+    border-radius: 0 50px 50px 0;
+    transition: 0.5s;
+}
+
+.nav-button{
+    width: 250px;
+}
+
+.nav-search button:hover{
+    background-color: var(--abumuda);
+    transition: 0.5s;
+}
+
+.nav-title h1:hover{
+    color: var(--abumuda);
+    transition: 0.7s;
+}
+
+.nav-title i:hover{
+    color: var(--abuputih);
+    transition: 0.7s;
+}

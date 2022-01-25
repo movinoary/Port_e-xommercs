@@ -1,0 +1,52 @@
+.card{
+    width: 300px;
+    margin: 1rem 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.card-img img{
+    padding: 0 10px ;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.card-desc{
+    padding: 10px 20px 20px 20px;
+    text-align: left;
+}
+
+.desc-judul{
+    font-size: 17px;
+    margin-bottom: 7px;
+    color: var(--abutua);
+}
+
+.desc-harga{
+    font-size: 20px;
+    margin-bottom: 7px;
+    color: var(--itemabu);
+}
+
+.desc-rate{
+    font-size: 15px;
+    color: var(--abumuda);
+}
+.desc-rate i{
+    color: #ffff00;
+}
+
+.card:hover{
+    background-color: var(--abuputih);
+    transition: 1s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.719);
+
+}

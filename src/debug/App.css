@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+p, a, Link{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+:root{
+  --item     : #111111;
+  --itemabu  : #222831;
+  --abutua   : #393E46; 
+  --abumuda  : #929AAB;
+  --abuputih : #EEEEEE;
+  --putih    : #F7F7F7;
+}

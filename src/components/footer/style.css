@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--item);
+}
+
+.footer-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--abuputih);
+    text-decoration: none;
+}
+
+.footer-title h1{
+    font-size: 40px;
+    margin-left: 10px;
+    transition: 0.7s;
+}
+
+.footer-title i{
+    font-size: 35px;
+    color: var(--abumuda);
+    transition: 0.7s;
+}
+
+.footer-copy{
+    color: var(--abumuda);
+    font-size: 15px;
+}
+
+.footer-title h1:hover{
+    color: var(--abumuda);
+    transition: 0.7s;
+}
+
+.footer-title i:hover{
+    color: var(--abuputih);
+    transition: 0.7s;
+}
