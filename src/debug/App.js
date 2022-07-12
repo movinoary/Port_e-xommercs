@@ -1,25 +1,25 @@
-import { Route, Switch } from 'react-router-dom';
-import { Footer, Nav } from '../components';
-import { DetailProduct, Home, Login } from '../page';
-import './App.css';
+import { Route, Switch } from "react-router-dom";
+import { Footer, Nav } from "../components";
+import { DetailProduct, Home, Login } from "../page";
+import "./App.css";
 
 function App() {
   return (
     <>
-    <Nav />
+      <Nav />
       <Switch>
-        <Route exact path='/'>
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route path='/detail-product/1'>
+        <Route path="/detail-product/:title">
           <DetailProduct />
         </Route>
-        <Route path='/sign-in'>
+        <Route path="/sign-in">
           <Login />
         </Route>
       </Switch>
-    <Footer />
-  </>
+      <Footer />
+    </>
   );
 }
 
