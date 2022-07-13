@@ -14,7 +14,7 @@ const Nav = () => {
     <nav className="nav-row">
       <Link className="nav-title" to="/">
         <i className="fas fa-laptop-code" />
-        <h1>e-ComLap</h1>
+        <h1>e-Xommerce</h1>
       </Link>
       <form className="nav-search">
         <input type="search" />
