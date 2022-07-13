@@ -6,7 +6,6 @@ import "./style.css";
 
 const DetailProduct = () => {
   let [count, setCount] = useState(1);
-  const [total, setTotal] = useState();
   const { title } = useParams();
 
   function plus() {
@@ -21,10 +20,6 @@ const DetailProduct = () => {
 
   function AddCart() {
     alert("please login / create an account");
-  }
-
-  function TotalPrice(price) {
-    setTotal(price * count);
   }
 
   return (
